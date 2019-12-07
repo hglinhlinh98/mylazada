@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Thiết kế Layout - Bố cục website trong CSS</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: arial
+}
+
+/* Định dạng header */
+  .header {
+  background-color: #e9d8f4;
+  color: #58257b;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Định dạng thanh điều hướng trên cùng */
+.topnav {
+  overflow: hidden;
+  background-color: #58257b;
+}
+
+/* Định dạng link điều hướng */
+.topnav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Thay đổi màu liên kết khi di chuột qua */
+.topnav a:hover {
+  background-color: #db7093; 
+  color: #f2f2f2;
+  font-weight: bold
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Website Quản Trị Mạng</h1>
+</div>
+
+<div class="topnav">
+  <a href="#">Làng Công nghệ</a>
+  <a href="#">Công nghệ</a>
+  <a href="#">Khoa học</a>
+</div>
+
+</body>
+</html>
