@@ -18,58 +18,144 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
  	<div class="navigation">
- 	   <div class="icon">
+ 	  <div class="icon">
  			<i><img src="assets/images/icon_WicomLab.png"></i>
  		</div>
- 		<div class="menu"> 		
-            <div class="menuitem"><a href="#">Home</a></div>
-             <div class="menuitem"><a href="#1">About</a></div>
-            <div class="menuitem"><a href="#">News</a></div>
-            <div class="menuitem"><a href="#">Docs</a></div>      
-            <div class="menuitem"><a href="#">Projects</a></div>
-            <div class="menuitem"><a href="#">Sign in</a></div>             
- 	    </div>
-
+ 		<div class="menu"> 
+      <div class="dropdown">
+        <a href="" class="dropdown_item">Home</a>
+      </div>
+      <div class="dropdown">
+        <a href="" class="dropdown_item">About</a>
+        <div class="dropdown-content">
+          <a href="">Teachers</a>
+          <a href="">Reserch</a>
+          <a href="">Achievement</a>
+        </div>
+      </div>		
+      <div class="dropdown">
+        <a href="" class="dropdown_item">Docs</a>
+        <div class="dropdown-content">
+          <a href="">Reference Book</a>
+          <a href="">Links</a>         
+        </div>
+      </div> 
+      <div class="dropdown">
+        <a href="" class="dropdown_item">News</a>
+        <div class="dropdown-content">
+          <a href="">Tin noi bo</a>
+          <a href="">Tin cong nghe</a>          
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="" class="dropdown_item">Project</a>
+        <div class="dropdown-content">
+          <a href="">List du an</a>
+          <a href="">Chi tiet</a>          
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="" class="dropdown_item">Sign in</a>
+      </div>                                
+ 	  </div>
  	</div>
+  <!-- anh lab -->
  	<div class="homepage">
- 		
- 	    <h1 class="nameoflab">Wireless Communication Laboratory</h1>
-        <h4 class="quotation">Work hard play hard!</h4> 		
+    <div class="overlay">
+      <h1 class="nameoflab">Wireless Communication Laboratory</h1>
+      <h4 class="quotation">Work hard play hard!</h4>         
+    </div>	
  	</div>
- 	<div class="teacher_lab" id="1"> 		
- 		<h2><i class="far fa-hand-point-right"></i> Our teacher</h2>
-
+  <!-- giang vien cua lab -->
+ 	<div class="teacher_lab" id="1"> 
+    <div class="pic_teacher">
+      <img src="assets/images/pro1.png">   
+      <div><h1> Các Giảng viên</h1></div>
+      <img src="assets/images/pro.jpg"> 
+    </div>
+    
  		<div class="row">
  			<div class="col-md-3">
  				<img src="assets/images/nguyenvanduc.png">
+        <p> PGS.Ts Nguyễn Văn Đức</p>
  			</div>
  			<div class="col-md-3">
  				<img src="assets/images/thunga.jpg">
+        <p>Ts.Nguyễn Thu Nga</p>
  			</div>
  			<div class="col-md-3">
  				<img src="assets/images/quockhuong.jpg">
+        <p> Ts.Nguyễn Quốc Khương</p>
  			</div>
  			<div class="col-md-3">
  				<img src="assets/images/tienhoa.jpg">
+        <p> Ts.Nguyễn Tiến Hòa</p>
  			</div>
  		</div>
+ 	</div>
+  <!-- huong nghien cuu cua lab -->
+ 
+  <div class="research">
+    <div class="color_fields"><h1> Lĩnh vực nghiên cứu </h1></div>
+    <div class="parts">
+      <div class="part_item">
+      <img src="assets/images/fpga.png">
+      <p> FPGA </p>
+    </div>
+    <div class="part_item">
+      <img src="assets/images/web.png">
+       <p> WEB </p>
+    </div>
+    <div class="part_item">
+      <img src="assets/images/underwatericon2.png">
+       <p> UNDER WATER </p>
+    </div>
+    <div class="part_item">
+      <img src="assets/images/AI_icon2.png">
+       <p> AI</p>
+    </div>
+    <div class="part_item">
+      <img src="assets/images/5g_icon.jpg">
+       <p> 5G </p>
+    </div>
+    <div class="part_item">
+      <img src="assets/images/sonaricon.png">
+       <p> SONAR</p>
+    </div>
+    
+  </div>
+  <!-- thanh tuu cua Lab -->
+  <div class="achievement">
+    <div class="title"><h1> Kết quả nghiên cứu </h1></div>
+    <ul>
+      <li>Đào tạo thành công 6 NCS,trên 40 Th.S và nhiều kỹ sư,cử nhân</li>
+      <li>Công bố trên 20 bài báo khoa học quốc tế thuộc hệ thống ISI</li>
+      <li>Công bố 4 sáng chế</li>
+    </ul>
+    <img src="assets/images/icon_WicomLab.png">
+  </div>
+  <!--thong tin lien he -->
+  <div class="contact">
     <div class="row">
-      <div class="col-md-3">
-        <img src="assets/images/nguyenvanduc.png">
+      <div class="col-md-8">
+        <h3>Wireless Communication Laboratory (Wicom Lab)</h3>
+        <i class="fas fa-home "></i>
+        <p>Phòng 618 - Tòa nhà Thư viện Tạ Quang Bửu, ĐH Bách Khoa HN.</p>    
+        <p>Phòng 421 - C9,ĐH Bách Khoa HN</p>
+        <p>Số 1 Đại Cồ Việt, Quận Hai Bà Trưng,Hà Nội,Việt Nam</p>   
+        <i class="fas fa-envelope-square "> <a href=""> wicomlab@gmail.com</a> </i>
+        <div class="icon_contact">
+          <a href=""><i class="fab fa-youtube-square fa-2x"></i></a>
+          <a href=""><i class="fab fa-facebook fa-2x"></i></a>      
+        </div>        
       </div>
-      <div class="col-md-3">
-        <img src="assets/images/thunga.jpg">
-      </div>
-      <div class="col-md-3">
-        <img src="assets/images/quockhuong.jpg">
-      </div>
-      <div class="col-md-3">
-        <img src="assets/images/tienhoa.jpg">
+      <div class="col-md-4">
+        
       </div>
     </div>
- 		
-
- 	</div>
+    
+  </div>  
+  
  	 <script src="https://kit.fontawesome.com/2860d4788d.js" crossorigin="anonymous"></script>
  	
 </body>
