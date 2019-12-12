@@ -104,42 +104,43 @@ a.dropdown_item{
     padding-bottom: 12px;
 }
 
-.news1 {
-	padding-top: 10px;
-	position: relative;
-    padding-bottom: 15px;
+.newslist_item {
+    padding-top: 8px;
+    padding-bottom: 0px;
     border-bottom: solid;
     border-bottom-color: #d3d3d361;
 }
-.news1 img {
+.img_news{
+    margin-right: 15px;
+    width: 25%;
+    float: left;
+}
+.img_news img {
    
-    width: 20%;
+    width: 100%;
     vertical-align: middle;
     border-style: none;
     margin-left: 8px;
 }
-.news1 a {
-    display: block;
+.content_news a {
+
    
-    left: 95px;
     color: white;
     background-color: transparent;
-    position: absolute;
-    z-index: 1;
+   
+   
     font-size: 14px;
-    top: 0px;
 }
-.news1 p {
+.content_news p {
     color: lightgrey;
-    position: absolute;
-    z-index: 2;
+   
     margin-bottom: 1rem;
-    top: 42px;
+   
     font-size: 12px;
-    left: 95px;
+    
 }
 .news_list h4 {
-    padding: 13px 6px;
+   padding: 2px 8px;
     font-size: 1.5rem;
     color: #ff5722bf;
 }

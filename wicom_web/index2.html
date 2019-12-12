@@ -43,8 +43,8 @@
       <div class="dropdown">
         <a href="" class="dropdown_item">News</a>
         <div class="dropdown-content">
-          <a href="">Tin noi bo</a>
-          <a href="">Tin cong nghe</a>          
+          <a href="#tin_noi_bo">Tin noi bo</a>
+          <a href="#tin_cong_nghe">Tin cong nghe</a>          
         </div>
       </div>
       <div class="dropdown">
@@ -70,13 +70,13 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
           <div class="carousel-inner">
-            <div class="carousel-item active" data-interval="300">
+            <div class="carousel-item active" data-interval="3000">
               <img src="assets/images/slide1.jpg" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item" data-interval="4000">
+            <div class="carousel-item" data-interval="3000">
               <img src="assets/images/slide2.jpg" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item" data-interval="3000" >
+            <div class="carousel-item"  >
               <img src="assets/images/slide3_5.jpg" class="d-block w-100" alt="...">
             </div>
           </div>
@@ -93,26 +93,39 @@
       <div class="col-md-4">
         <div class="news_list">
           <h4>Tin mới đăng</h4>
-          <div class="news1">
-            <img src="assets/images/news1.jpg">
-            <a href="">Công tác thi đua khen thưởng của Trường Đại học Bách Khoa Hà Nội</a>
-            <p> 10-12-2019</p>
+          <div class="newslist_item">
+            <div class="img_news">
+              <img src="assets/images/news1.jpg">
+            </div>
+            <div class="content_news">
+              <a href="">Công tác thi đua khen thưởng của Trường Đại học Bách Khoa Hà Nội</a>
+              <p> 10-12-2019</p>              
+            </div>            
           </div>
-          <div class="news1">
-            <img src="assets/images/news2.jpg">
-            <a href="">3 SV Bách Khoa Hà Nội vừa giành giải thưởng Honda</a>
-            <p> 11-12-2019</p>
+          <div class="newslist_item">
+            <div class="img_news">
+              <img src="assets/images/news2.jpg">
+            </div>
+            <div class="content_news">
+              <a href="">3 SV Bách Khoa Hà Nội vừa giành giải thưởng Honda</a>
+              <p> 11-12-2019</p>              
+            </div>            
           </div>
-          <div class="news1">
-            <img src="assets/images/news3.jpg">
-            <a href="">TECHFEST VIETNAM 2019:ĐH Bách Khoa Hà Nội chia sẻ kinh nghiệm </a>
-            <p> 12-12-2019</p>
+          <div class="newslist_item">
+            <div class="img_news">
+              <img src="assets/images/news3.jpg">
+            </div>
+            <div class="content_news">
+              <a href="">TECHFEST VIETNAM 2019:ĐH Bách Khoa Hà Nội chia sẻ kinh nghiệm</a>
+              <p> 12-12-2019</p>              
+            </div>            
           </div>
         </div>
       </div>   
+    </div>
   </div>
   <!-- tin tuc noi bo -->
-  <div class="internal_news">
+  <div class="internal_news" id="tin_noi_bo">
     <h4> TIN NỘI BỘ </h4>
     <table class="w3-table">
       <tr class="title_news">
@@ -138,7 +151,7 @@
     </table>
   </div>
   <!-- tin tuc cong nghe -->
-  <div class="tech_news">
+  <div class="tech_news" id="tin_cong_nghe">
     <h4> TIN CÔNG NGHỆ</h4>
     <ul>
       <li><a href="" class="color_a">cac loai anten moi abc nvjfnvjnfkv c ncvjnvjdsnv</a></li>
