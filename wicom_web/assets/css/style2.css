@@ -210,10 +210,15 @@ table {
     border-top-color: lightgrey;
     padding: 30px;
 }
-.col-md-8 a {
+.col-md-4.email a {
     color: #156715;
     text-decoration: none;
     background-color: transparent;
+}
+.col-md-8 p {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 .icon_contact {
     color: green;
