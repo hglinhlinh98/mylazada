@@ -161,7 +161,7 @@ table {
     border-collapse: collapse;
 }
 .title_news{
-	background-color: #00bcd4b5;
+	background-color: #399a3ddb;
 }
 .title_news th {
     color: white;
@@ -192,7 +192,7 @@ table {
     
 }
 .tech_news h4{
-    border-bottom: solid #00BCD4;
+    border-bottom: solid green;
     padding: 10px 3px;
     color: #ff000085;
 }
